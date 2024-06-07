@@ -1,5 +1,5 @@
-
-import { poloPortada, boosPortada, boosPortada2, poloPortada2, kingPortada, kingPortada2 } from './prod';
+import { poloPortada, boosPortada, boosPortada2, poloPortada2, kingPortada } from './prod';
+import kingPortada2 from './Imagenes/kingPortad.jpg';
 
 export default function ProductListsCategoriesGrid() {
   return (
@@ -12,7 +12,7 @@ export default function ProductListsCategoriesGrid() {
               <img
                 src={boosPortada}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
@@ -20,47 +20,39 @@ export default function ProductListsCategoriesGrid() {
               <img
                 src={poloPortada}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
-            <div data-aos="fade-up"
-              className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center">
               <img
                 src={kingPortada}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
-            <div data-aos="fade-up"
-              className="group relative block overflow-hidden transition ease-out active:opacity-75 sm:col-span-2 md:col-span-1 flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="group relative block overflow-hidden transition ease-out active:opacity-75 sm:col-span-2 md:col-span-1 flex justify-center items-center">
               <img
                 src={boosPortada2}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
-            <div data-aos="fade-up"
-              className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center">
               <img
                 src={poloPortada2}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
-            <div data-aos="fade-up"
-              className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center"
-            >
+            <div data-aos="fade-up" className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center">
               <img
-                src={"kingPortada2"}
+                src={kingPortada2}
                 alt="Product Image"
-                className="transition ease-out group-hover:scale-110 mx-auto"
+                className="transition ease-out group-hover:scale-110 mx-auto w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/25 transition ease-out group-hover:bg-black/0" />
             </div>
