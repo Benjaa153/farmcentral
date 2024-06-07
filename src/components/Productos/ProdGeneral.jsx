@@ -58,7 +58,7 @@ export default function ProductListsCategoriesGrid() {
               className="group relative block overflow-hidden transition ease-out active:opacity-75 flex justify-center items-center"
             >
               <img
-                src={kingPortada2}
+                src={"kingPortada2"}
                 alt="Product Image"
                 className="transition ease-out group-hover:scale-110 mx-auto"
               />
