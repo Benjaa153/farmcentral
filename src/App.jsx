@@ -6,6 +6,7 @@ import WhatsappBut from "./components/WhatsappBut.jsx";
 import Carrusel from "./components/Carrusel.jsx";
 import Items from "./components/Items.jsx";
 import Productos from "./components/Productos/Productos.jsx";
+import Mapas from "./components/Mapas.jsx";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
       <Items />
       <Recipes />
       <Productos />
+      <Mapas />
       <WhatsappBut />
       <Footer />
     </div>
