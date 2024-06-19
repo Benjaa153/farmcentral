@@ -2,7 +2,7 @@ import React from 'react';
 import Recipes1 from './Recipes1';
 import Recipes2 from './Recipes2';
 import Recipes3 from './Recipes3';
-
+import Prodskincare from './ProdSkincare';
 function Recipes() {
     return (
         <div id='recipes' className='relative' >
@@ -18,6 +18,8 @@ function Recipes() {
                     <Recipes3 />
                 </div>
             </div>
+            <h2 className="font-lora text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-keppel mb-10" data-aos="fade-down">Recomendaciones</h2>
+                 <Prodskincare />
         </div>
     )
 }

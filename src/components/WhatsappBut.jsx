@@ -5,7 +5,7 @@ function WhatsappBut() {
     return (
       <div className="fixed bottom-20 right-5 z-50 animate-bounce">
         <a
-          href="https://api.whatsapp.com/send?phone=3863569828"
+          href="https://wa.me/message/6UV3H4ISJIBPL1"
           target="_blank"
           rel="noopener noreferrer"
         >

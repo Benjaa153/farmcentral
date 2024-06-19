@@ -1,16 +1,52 @@
-import poloPortada from "./Imagenes/PoloPortada.jpg";
-import alliancePortada from "./Imagenes/AlliancePortada.jpg";
-import boosPortada from './Imagenes/BossPortada.jpeg';
-import boosPortada2 from './Imagenes/BoosPortada2.jpeg';
-import poloPortada2 from './Imagenes/PoloPortada2.jpg';
-import kingPortada from './Imagenes/KingPortada.jpg';
+{/* Productos de perfumeria */}
+import boosNight from './Imagenes/boosNight.png';
+import poloRojo from './Imagenes/poloRojo.png'
+import alliance from './Imagenes/allianceEpicee.jpg'
+import kingAzul from './Imagenes/kingAzul.png'
+import queenrosa from './Imagenes/queenrosa.png'
+import shakirap from './Imagenes/shakirap.png'
+import hersecret from './Imagenes/hersecret.jpg'
+{/* Productos de ortopedia */}
+import silla from './Imagenes/sillaRuedas.png';
+import andador from './Imagenes/andador.png';
+import muletas from './Imagenes/muletas.png'
+import baston4 from './Imagenes/bastonCuatro.png'
+import faja from './Imagenes/faja.png'
+import bota from './Imagenes/bota.png'
+
+{/* Productos de cuidado personal */}
+import gelLimpieza from './Imagenes/gelLimpieza.png'
+import gelExfo from './Imagenes/gelExfoliante.png'
+import niveaHidra from './Imagenes/niveaHidratacion.png'
+import protecSolar from './Imagenes/protecSolar.png'
+import shampoohead from './Imagenes/shampoohead.png'
+import desodorante from './Imagenes/desodorante.png'
 
 
 export{
-    poloPortada,
-    alliancePortada,
-    boosPortada,
-    boosPortada2,
-    poloPortada2,
-    kingPortada,
+    // Perfumeria
+    boosNight,
+    poloRojo,
+    alliance,
+    kingAzul,
+    queenrosa,
+    shakirap,
+    hersecret,
+    // Ortopedia
+    silla,
+    andador,
+    muletas,
+    baston4,
+    faja,
+    bota,
+    // Cuidado Personal
+    gelLimpieza,
+    gelExfo,
+    niveaHidra,
+    protecSolar,
+    shampoohead,
+    desodorante,
+
+
+
 }

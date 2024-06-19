@@ -13,9 +13,9 @@ const Hero = () => {
   }, []);
 */
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center mx-auto w-11/12 transition-opacity duration-500" id="hero">
+    <div className="flex flex-col md:flex-row justify-center items-center mx-auto w-11/12 transition-opacity duration-500" id="hero">
       <div className="w-full text-center">
-        <div className="mt-10">
+        <div className="mt-10"> 
           <h1 className="font-lora text-2xl md:text-4xl lg:text-4xl text-center text-tropicalindigo" data-aos="fade-down">
             Belleza, Cosmética, Cuidado personal
           </h1>
