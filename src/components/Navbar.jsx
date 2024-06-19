@@ -1,5 +1,5 @@
-import { Link } from "react-scroll";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 
@@ -26,64 +26,63 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  
+
   const content = (
-    <>
-      <div className="bg-[white] lg:hidden block absolute top-16 w-full left-0 right-0 transition">
-        <ul className="text-center text-x1 p-20">
-          <Link spy={true} smooth={true} to="hero">
-            <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-[white] hover:rounded">
-              Inicio
-            </li>
+    <div className={`bg-white lg:hidden block absolute top-16 w-full left-0 right-0 transition`}>
+      <ul className="text-center text-x1 p-20">
+        <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
+          <Link spy={true} smooth={true} to="hero" onClick={handleClick}>
+            Inicio
           </Link>
-          <Link spy={true} smooth={true} to="us">
-            <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-[white] hover:rounded">
-              Nosotros
-            </li>
+        </li>
+        <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
+          <Link spy={true} smooth={true} to="us" onClick={handleClick}>
+            Nosotros
           </Link>
-          <Link spy={true} smooth={true} to="recipes">
-            <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-[white] hover:rounded">
-              Tips
-            </li>
+        </li>
+        <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
+          <Link spy={true} smooth={true} to="recipes" onClick={handleClick}>
+            Tips
           </Link>
-          <Link spy={true} smooth={true} to="productos">
-            <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-[white] hover:rounded">
+        </li>
+        <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
+          <Link spy={true} smooth={true} to="productos" onClick={handleClick}>
             Productos
-            </li>
           </Link>
-        </ul>
-      </div>
-    </>
+        </li>
+      </ul>
+    </div>
   );
+
   return (
     <nav className={`bg-${scrolling ? "white" : "transparent"}`}>
       <div className="h-10vh flex justify-between z=50 text-tropicalindigo lg:py-5 lg:px-20 py-4">
         <div className="flex items-center flex-1">
-         
+          {/* Contenido del logo o nombre */}
         </div>
         <div className="sm:flex sm:mr-5 lg:flex md:flex lg:flex-1 items center justify-end font-normal hidden">
           <div className="flex items-center">
             <ul className="flex gap-8 sm:mx-auto md:mr-16 lg:mr-16 text-[18px]">
-              <Link spy={true} smooth={true} to="hero">
-                <li className="hover:text-mayablue	 transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="hero">
                   Inicio
-                </li>
-              </Link>
-              <Link spy={true} smooth={true} to="us">
-                <li className="hover:text-mayablue	 transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="us">
                   Nosotros
-                </li>
-              </Link>
-              <Link spy={true} smooth={true} to="recipes">
-                <li className="hover:text-mayablue	 transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="recipes">
                   Tips
-                </li>
-              </Link>
-              <Link spy={true} smooth={true} to="productos">
-                <li className="hover:text-mayablue	 transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="productos">
                   Productos
-                </li>
-              </Link>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
