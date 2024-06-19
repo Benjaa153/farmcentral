@@ -25,7 +25,7 @@ const Carrusel = () => {
     >
       <div className="w-full md:w-1/2 md:mx-auto">
         <h1 className="text-4xl font-lora text-tiffanyblue" data-aos="fade-down">¿Quienes somos?</h1>
-        <p className="pt-5 text-[17px]" data-aos="fade-up">
+        <p className="pt-5 text-[17px] font-lora" data-aos="fade-up">
           En el corazón de nuestro compromiso con la salud y el bienestar se
           encuentra nuestra farmacia, un lugar donde la tradición se fusiona con
           la innovación. Aquí, cada producto es cuidadosamente seleccionado para

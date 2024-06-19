@@ -16,11 +16,12 @@ const Hero = () => {
     <div className="flex flex-col md:flex-row justify-center items-center mx-auto w-11/12 transition-opacity duration-500" id="hero">
       <div className="w-full text-center">
         <div className="mt-10"> 
-          <h1 className="font-lora text-2xl md:text-4xl lg:text-4xl text-center text-tropicalindigo" data-aos="fade-down">
-            Belleza, Cosmética, Cuidado personal
+          <h1 className="font-lora text-5xl sm:text-3xl md:text-4xl lg:text-7xl text-tropicalindigo pb-10   " data-aos="fade-down">
+          Farmacia Central
           </h1>
-          <h2 className="font-lora text-5xl sm:text-3xl md:text-4xl lg:text-7xl text-mayablue pb-10" data-aos="fade-up">
-            Farmacia Central
+          <h2 className="font-lora text-2xl md:text-4xl lg:text-4xl text-center text-tiffanyblue" data-aos="fade-down">
+          Belleza, Cosmética, Cuidado personal
+            
           </h2>
         </div>
       </div>

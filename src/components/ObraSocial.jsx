@@ -49,7 +49,7 @@ const ObrasSociales = () => {
     return (
         <div className="bg-gray-200 py-12 font-lora" data-aos="fade-down">
             <div className="container mx-auto">
-                <h2 className="text-4xl font-lora text-center text-darkcyan mb-8">
+                <h2 className="text-4xl font-lora text-center text-mayablue mb-8">
                     Obras Sociales
                 </h2>
                 <Slider {...sliderSettings} className="slick-slider">
