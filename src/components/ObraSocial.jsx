@@ -54,7 +54,7 @@ const ObrasSociales = () => {
                 </h2>
                 <Slider {...sliderSettings} className="slick-slider">
                     {obrasSociales.map((obra, index) => (
-                        <div key={index} className="p-4">
+                        <div key={index} className="p-4 ">
                             <div className="bg-keppel rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
                                 <p className="text-lg text-center text-gray-800">
                                     {obra}
