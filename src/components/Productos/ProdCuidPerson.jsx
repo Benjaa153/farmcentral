@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { gelLimpieza, gelExfo, protecSolar, shampoohead, desodorante, } from './prod.js';
-import niveaHidra from './Imagenes/niveaHidratacion.png'
+import { gelLimpieza, gelExfo, niveaHidra, protecSolar, shampoohead, desodorante, } from './prod.js';
+
 function ProdOrtopedia() {
   const [showAll, setShowAll] = useState(false);
 

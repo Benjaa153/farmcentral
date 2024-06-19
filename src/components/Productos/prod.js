@@ -17,6 +17,7 @@ import bota from './Imagenes/bota.png';
 {/* Productos de cuidado personal */}
 import gelLimpieza from './Imagenes/gelLimpieza.png';
 import gelExfo from './Imagenes/gelExfoliante.png';
+import niveaHidra from './Imagenes/niveahidratacion.png';
 import protecSolar from './Imagenes/protecSolar.png';
 import shampoohead from './Imagenes/shampoohead.png';
 import desodorante from './Imagenes/desodorante.png';
@@ -41,7 +42,11 @@ export{
     // Cuidado Personal
     gelLimpieza,
     gelExfo,
+    niveaHidra,
     protecSolar,
     shampoohead,
     desodorante,
+
+
+
 }
