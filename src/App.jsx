@@ -7,13 +7,16 @@ import Carrusel from "./components/Carrusel.jsx";
 import Items from "./components/Items.jsx";
 import Productos from "./components/Productos/Productos.jsx";
 import Mapas from "./components/Mapas.jsx";
+import ObrasSociales from "./components/ObraSocial.jsx";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Hero />
       <Carrusel />
+      
       <Items />
+      <ObrasSociales/>
       <Recipes />
       <Productos />
       <Mapas />
