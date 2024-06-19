@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function Mapas() {
   return (
     <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center mx-auto w-full transition-opacity duration-500 " data-aos="fade-up" id='mapas'>

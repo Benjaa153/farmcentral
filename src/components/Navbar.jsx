@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import { FaTimes, FaMapMarkerAlt } from "react-icons/fa"; // Importa el ícono de mapa
+import { FaTimes, FaMapMarkerAlt, FaInstagram } from "react-icons/fa"; // Importa los íconos de mapa e Instagram
 import { CiMenuFries } from "react-icons/ci";
 
 const Navbar = () => {
@@ -47,15 +47,22 @@ const Navbar = () => {
         </li>
         <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
           <Link spy={true} smooth={true} to="productos" onClick={handleClick}>
-            Producto
+            Productos
           </Link>
         </li>
-        {/* Agrega un enlace para el mapa al final de la página */}
+        {/* Enlace para el mapa */}
         <li className="my-4 py-4 border-b border-mayablue hover:bg-flame hover:text-white hover:rounded">
           <Link spy={true} smooth={true} to="mapas" onClick={handleClick}>
             <FaMapMarkerAlt className="inline-block mr-2" />
             Ubicacion
           </Link>
+        </li>
+        {/* Enlace para Instagram */}
+        <li className="my-4 py-4 border-b border-mayablue hover:bg-flame hover:text-white hover:rounded">
+          <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer" onClick={handleClick}>
+            <FaInstagram className="inline-block mr-2" />
+            Instagram
+          </a>
         </li>
       </ul>
     </div>
@@ -90,11 +97,19 @@ const Navbar = () => {
                   Productos
                 </Link>
               </li>
+              {/* Enlace para el mapa */}
               <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
                 <Link spy={true} smooth={true} to="mapas">
                   <FaMapMarkerAlt className="inline-block mr-2" />
                   Ubicacion
                 </Link>
+              </li>
+              {/* Enlace para Instagram */}
+              <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
+                <a href="https://www.instagram.com/farmaciacentral7/?hl=es" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="inline-block mr-2 font-lora" />
+                  Instagram
+                </a>
               </li>
             </ul>
           </div>
