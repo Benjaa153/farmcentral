@@ -5,7 +5,7 @@ import ProdCuidPerson from './ProdCuidPerson.jsx'
 
 function Productos() {
   return (
-    <div className="mt-10" id='productos'>
+    <div className="mt-10" id='productos font-lora'>
       <h2 className="font-lora text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-keppel mb-10" data-aos="fade-down">Productos</h2>
       <ProdOrtopedia />
       <h2 className="font-lora text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-keppel mb-10" data-aos="fade-down">Perfumeria</h2>

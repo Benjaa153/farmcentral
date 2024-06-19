@@ -16,7 +16,7 @@ function ProdOrtopedia() {
   const displayedProducts = showAll ? products : products.slice(0, 3);
 
   return (
-    <div className="bg-gray-100 py-12 " data-aos="fade-down">
+    <div className="bg-gray-100 py-12 font-lora" data-aos="fade-down">
       <section className="flex flex-wrap justify-center container mx-auto">
         {displayedProducts.map(product => (
           <div key={product.id} className="flex flex-col mb-8 px-4 w-full sm:w-1/2 md:w-1/3">

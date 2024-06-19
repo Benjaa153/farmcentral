@@ -17,8 +17,7 @@ function ProdOrtopedia() {
   const displayedProducts = showAll ? products : products.slice(0, 3);
 
   return (
-    <div className="bg-gray-100 py-12" data-aos="fade-down">
-      <h2 className="text-4xl font-bold text-center text-darkcyan mb-12">Ortopedia</h2>
+    <div className="bg-gray-100 py-12 font-lora" data-aos="fade-down">
       <section className="flex flex-wrap justify-center container mx-auto">
         <AnimatePresence>
           {displayedProducts.map(product => (
