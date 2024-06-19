@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { boosNight, poloRojo, alliance, kingAzul, queenrosa, shakirap, hersecret } from './prod.js';
+import { boosNight, poloRojo, kingAzul, queenrosa, shakirap, hersecret } from './prod.js';
 
 function ProdOrtopedia() {
   const [showAll, setShowAll] = useState(false);
