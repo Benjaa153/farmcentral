@@ -29,7 +29,7 @@ const Navbar = () => {
 
   const content = (
     <div className={`bg-white lg:hidden block absolute top-20 w-full left-0 right-0 transition`}>
-      <ul className="text-center text-x1 p-4">
+      <ul className="text-center text-x1 p-20">
         <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
           <Link spy={true} smooth={true} to="hero" onClick={handleClick}>
             Inicio
@@ -69,53 +69,55 @@ const Navbar = () => {
   );
 
   return (
-    <nav className={`bg-${scrolling ? "white" : "transparent"} fixed w-full z-50 transition-all duration-300`}>
-      <div className="h-16 flex justify-between items-center px-5 lg:px-20">
+    <nav className={`bg-${scrolling ? "white" : "transparent"}`}>
+      <div className="h-10vh flex justify-between z=50 text-tropicalindigo lg:py-5 lg:px-20 py-4">
         <div className="flex items-center flex-1">
           {/* Contenido del logo o nombre */}
         </div>
-        <div className="hidden lg:flex items-center justify-end font-normal flex-1">
-          <ul className="flex gap-8 text-[18px]">
-            <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
-              <Link spy={true} smooth={true} to="hero">
-                Inicio
-              </Link>
-            </li>
-            <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
-              <Link spy={true} smooth={true} to="us">
-                Nosotros
-              </Link>
-            </li>
-            <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
-              <Link spy={true} smooth={true} to="recipes">
-                Tips
-              </Link>
-            </li>
-            <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
-              <Link spy={true} smooth={true} to="productos">
-                Productos
-              </Link>
-            </li>
-            {/* Enlace para el mapa */}
-            <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
-              <Link spy={true} smooth={true} to="mapas">
-                <FaMapMarkerAlt className="inline-block mr-2" />
-                Ubicacion
-              </Link>
-            </li>
-            {/* Enlace para Instagram */}
-            <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
-              <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="inline-block mr-2" />
-                Instagram
-              </a>
-            </li>
-          </ul>
+        <div className="sm:flex sm:mr-5 lg:flex md:flex lg:flex-1 items center justify-end font-normal hidden">
+          <div className="flex items-center">
+            <ul className="flex gap-8 sm:mx-auto md:mr-16 lg:mr-16 text-[18px]">
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="hero">
+                  Inicio
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="us">
+                  Nosotros
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="recipes">
+                  Tips
+                </Link>
+              </li>
+              <li className="hover:text-mayablue transition border-b-2 hover:border-tiffanyblue cursor-pointer">
+                <Link spy={true} smooth={true} to="productos">
+                  Productos
+                </Link>
+              </li>
+              {/* Enlace para el mapa */}
+              <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
+                <Link spy={true} smooth={true} to="mapas">
+                  <FaMapMarkerAlt className="inline-block mr-2" />
+                  Ubicacion
+                </Link>
+              </li>
+              {/* Enlace para Instagram */}
+              <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
+                <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="inline-block mr-2" />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <button className="lg:hidden transition m-4 p-2 rounded-lg" onClick={handleClick}>
+        <div>{click && content}</div>
+        <button className="block sm:hidden transition m-4 p-2 rounded-lg" onClick={handleClick}>
           {click ? <FaTimes className="text-2xl text-black" /> : <CiMenuFries className="text-2xl text-black" />}
         </button>
-        {click && content}
       </div>
     </nav>
   );
