@@ -24,6 +24,7 @@ export default {
         tiffanyblue: "#69D1C5",
         keppel: "#3BA99C",
         darkcyan: "#21897E",
+        flame: "#E4572E",
       },
       boxShadow: {
         before: "-10px 10px 0 #FFF",
