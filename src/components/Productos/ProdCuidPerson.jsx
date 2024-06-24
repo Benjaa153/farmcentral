@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSerum.jpg'
+import lorealLimpieza from './ImagenesCuidPersonal/lorealGelLimpieza.png';
 import { 
   gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
   garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,

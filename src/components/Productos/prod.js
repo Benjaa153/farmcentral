@@ -40,7 +40,7 @@ import neutrogenaHydro from './ImagenesCuidPersonal/NeutrogenaHydroBoost.jpg';
 
 import lorealAcidoGel from './ImagenesCuidPersonal/lorealAcidoGel.png';
 import lorealAcidoOjos from './ImagenesCuidPersonal/lorealAcidoOjos.png';
-import lorealLimpieza from './ImagenesCuidPersonal/lorealGelLimpieza.png';
+
 import lorealSerumOjos from './ImagenesCuidPersonal/lorealSerumOjos.jpg';
 import lorealSerumRelleno from './ImagenesCuidPersonal/lorealSerumRelleno.png';
 
@@ -87,7 +87,6 @@ export {
     neutrogenaHydro,
     lorealAcidoGel,
     lorealAcidoOjos,
-    lorealLimpieza,
     lorealSerumOjos,
     lorealSerumRelleno,
     dermaglosAzul,
