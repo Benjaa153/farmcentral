@@ -35,7 +35,6 @@ import garnierMicelarVitamina from './ImagenesCuidPersonal/garniermicelarvitamin
 import garnierHidratanteFps from './ImagenesCuidPersonal/GarnierHidratanteFPS.jpg';
 
 import neutrogenaAcido from './ImagenesCuidPersonal/neurogenaAcidoGlicolico.png';
-import neutrogenaExfoliante from './ImagenesCuidPersonal/neutrogenaExfoliante.png';
 import neutrogenaExfolianteAcne from './ImagenesCuidPersonal/neutrogenaExfolianteAcne.png';
 import neutrogenaHydro from './ImagenesCuidPersonal/NeutrogenaHydroBoost.jpg';
 
@@ -84,7 +83,6 @@ export {
     garnierMicelarVitamina,
     garnierHidratanteFps,
     neutrogenaAcido,
-    neutrogenaExfoliante,
     neutrogenaExfolianteAcne,
     neutrogenaHydro,
     lorealAcidoGel,
