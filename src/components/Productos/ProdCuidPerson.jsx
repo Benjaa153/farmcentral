@@ -1,19 +1,10 @@
 import React, { useState } from 'react';
-import { gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
-  garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,
-  garnierHidratanteSerum,
-  neutrogenaAcido,
-  neutrogenaExfolianteAcne,
-  neutrogenaHydro,
-  lorealAcidoGel,
-  lorealAcidoOjos,
-  lorealLimpieza,
-  lorealSerumOjos,
-  lorealSerumRelleno,
-  dermaglosAzul,
-  dermaglosMorado,
-  dermaglosRojo,
-  dermaglosMarron,
+import { 
+  gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
+  garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps, garnierHidratanteSerum,
+  neutrogenaAcido, neutrogenaExfolianteAcne, neutrogenaHydro, lorealAcidoGel, lorealAcidoOjos,
+  lorealLimpieza, lorealSerumOjos, lorealSerumRelleno, dermaglosAzul, dermaglosMorado, 
+  dermaglosRojo, dermaglosMarron
 } from './prod.js';
 import ProductCarousel from './ProdCarrousel.jsx';
 
