@@ -42,7 +42,7 @@ import lorealAcidoGel from './Imagenes/lorealAcidoGel.png';
 import lorealAcidoOjos from './Imagenes/lorealAcidoOjos.png';
 
 import lorealSerumOjos from './Imagenes/lorealSerumOjos.jpg';
-import lorealSerumRelleno from './Imagenes/lorealSerumRelleno.png';
+import lorealSerumRelleno from './Imagenes/lorealSerumrelleno.png';
 
 import dermaglosAzul from './Imagenes/dermaglosUltraAzul.jpg';
 import dermaglosMorado from './Imagenes/dermaglosUltraMorado.jpg';
