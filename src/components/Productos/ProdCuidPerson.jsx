@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import garnierHidratanteSerum from './ImagenesCuidPersonal/GarnierHidratanteSerum.jpg'
 import { gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
   garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,
+  garnierHidratanteSerum,
   neutrogenaAcido,
   neutrogenaExfolianteAcne,
   neutrogenaHydro,
