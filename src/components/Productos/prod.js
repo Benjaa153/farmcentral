@@ -26,29 +26,31 @@ import gelLimpieza from './Imagenes/gelLimpieza.png';
 import niveaHidra from './Imagenes/niveahidratacion.png';
 import shampoohead from './Imagenes/shampoohead.png';
 import desodorante from './Imagenes/desodorante.png';
-import serumAmarillo from './ImagenesCuidPersonal/SniveaAmarillo.png';
-import serumRojo from './ImagenesCuidPersonal/SniveaRojo.png';
-import serumVerde from './ImagenesCuidPersonal/SniveaVerde.png';
+import serumAmarillo from './Imagenes/SniveaAmarillo.png';
+import serumRojo from './Imagenes/SniveaRojo.png';
+import serumVerde from './Imagenes/SniveaVerde.png';
 
-import garnierAguaMicelarAcido from './ImagenesCuidPersonal/GarnierMicelarAcido.jpg';
-import garnierMicelarVitamina from './ImagenesCuidPersonal/garniermicelarvitamina.png';
-import garnierHidratanteFps from './ImagenesCuidPersonal/GarnierHidratanteFPS.jpg';
+import garnierAguaMicelarAcido from './Imagenes/GarnierMicelarAcido.jpg';
+import garnierMicelarVitamina from './Imagenes/garniermicelarvitamina.png';
+import garnierHidratanteFps from './Imagenes/GarnierHidratanteFPS.jpg';
 
-import neutrogenaAcido from './ImagenesCuidPersonal/neurogenaAcidoGlicolico.png';
-import neutrogenaExfolianteAcne from './ImagenesCuidPersonal/neutrogenaExfolianteAcne.png';
-import neutrogenaHydro from './ImagenesCuidPersonal/NeutrogenaHydroBoost.jpg';
+import neutrogenaAcido from './Imagenes/neurogenaAcidoGlicolico.png';
+import neutrogenaExfolianteAcne from './Imagenes/neutrogenaExfolianteAcne.png';
+import neutrogenaHydro from './Imagenes/NeutrogenaHydroBoost.jpg';
 
-import lorealAcidoGel from './ImagenesCuidPersonal/lorealAcidoGel.png';
-import lorealAcidoOjos from './ImagenesCuidPersonal/lorealAcidoOjos.png';
+import lorealAcidoGel from './Imagenes/lorealAcidoGel.png';
+import lorealAcidoOjos from './Imagenes/lorealAcidoOjos.png';
 
-import lorealSerumOjos from './ImagenesCuidPersonal/lorealSerumOjos.jpg';
-import lorealSerumRelleno from './ImagenesCuidPersonal/lorealSerumRelleno.png';
+import lorealSerumOjos from './Imagenes/lorealSerumOjos.jpg';
+import lorealSerumRelleno from './Imagenes/lorealSerumRelleno.png';
 
-import dermaglosAzul from './ImagenesCuidPersonal/dermaglosUltraAzul.jpg';
-import dermaglosMorado from './ImagenesCuidPersonal/dermaglosUltraMorado.jpg';
-import dermaglosRojo from './ImagenesCuidPersonal/dermaglosUltraRojo.jpeg';
-import dermaglosMarron from './ImagenesCuidPersonal/dermaglosUltraMarron.jpg';
+import dermaglosAzul from './Imagenes/dermaglosUltraAzul.jpg';
+import dermaglosMorado from './Imagenes/dermaglosUltraMorado.jpg';
+import dermaglosRojo from './Imagenes/dermaglosUltraRojo.jpeg';
+import dermaglosMarron from './Imagenes/dermaglosUltraMarron.jpg';
 
+import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSeru.jpg'
+import lorealLimpieza from './Imagenes/LorealGelLimpieza.png'
 export {
     // Perfumeria
     boosNight,
@@ -93,4 +95,7 @@ export {
     dermaglosMorado,
     dermaglosRojo,
     dermaglosMarron,
+    garnierHidratanteSerum,
+    lorealLimpieza,
+
 }

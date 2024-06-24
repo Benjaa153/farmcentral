@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSerum.jpg'
-import lorealLimpieza from './ImagenesCuidPersonal/lorealGelLimpieza.png';
 import { 
   gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
   garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,
   neutrogenaAcido, neutrogenaExfolianteAcne, neutrogenaHydro, lorealAcidoGel, lorealAcidoOjos, 
   lorealSerumOjos, lorealSerumRelleno, dermaglosAzul, dermaglosMorado, 
-  dermaglosRojo, dermaglosMarron
+  dermaglosRojo, dermaglosMarron, garnierHidratanteSerum, lorealLimpieza 
 } from './prod.js';
 import ProductCarousel from './ProdCarrousel.jsx';
 
