@@ -35,7 +35,6 @@ import serumVerde from './ImagenesCuidPersonal/SniveaVerde.png'
 import garnierAguaMicelarAcido from './ImagenesCuidPersonal/GarnierMicelarAcido.jpg'
 import garnierMicelarVitamina from './ImagenesCuidPersonal/garniermicelarvitamina.png'
 import garnierHidratanteFps from './ImagenesCuidPersonal/GarnierHidratanteFPS.jpg'
-import garnierHidratanteSerum from './ImagenesCuidPersonal/garnierHidratanteSerum.jpg'
 import neutrogenaAcido from './ImagenesCuidPersonal/neurogenaAcidoGlicolico.png'
 import neutrogenaExfoliante from './ImagenesCuidPersonal/neutrogenaExfoliante.png'
 import neutrogenaExfolianteAcne from './ImagenesCuidPersonal/neutrogenaExfolianteAcne.png'
@@ -83,7 +82,6 @@ export{
     garnierAguaMicelarAcido,
     garnierMicelarVitamina,
     garnierHidratanteFps,
-    garnierHidratanteSerum,
     neutrogenaAcido,
     neutrogenaExfoliante,
     neutrogenaExfolianteAcne,
@@ -97,6 +95,6 @@ export{
     dermaglosMorado,
     dermaglosRojo,
     dermaglosMarron,
-    
+
 
 }
