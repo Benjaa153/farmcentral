@@ -49,7 +49,7 @@ import dermaglosMorado from './Imagenes/dermaglosUltraMorado.jpg';
 import dermaglosRojo from './Imagenes/dermaglosUltraRojo.jpeg';
 import dermaglosMarron from './Imagenes/dermaglosUltraMarron.jpg';
 
-import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSeru.jpg'
+import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSerum.jpg'
 import lorealLimpieza from './Imagenes/LorealGelLimpieza.png'
 export {
     // Perfumeria
