@@ -26,20 +26,14 @@ const Carrusel = () => {
       <div className="w-full md:w-1/2 md:mx-auto">
         <h1 className="text-4xl font-lora text-tiffanyblue" data-aos="fade-down">¿Quienes somos?</h1>
         <p className="pt-5 text-[17px] font-lora" data-aos="fade-up">
-          En el corazón de nuestro compromiso con la salud y el bienestar se
-          encuentra nuestra farmacia, un lugar donde la tradición se fusiona con
-          la innovación. Aquí, cada producto es cuidadosamente seleccionado para
-          ofrecer la máxima calidad y eficacia, transformando el cuidado
-          personal en una experiencia única. Nuestra farmacia es un crisol de
-          conocimiento y dedicación, donde cada fórmula y tratamiento se elabora
-          con precisión para garantizar tu bienestar. Además, somos amantes de
-          la belleza y la cosmética, siempre buscando nuevas formas de realzar
-          tu apariencia y mejorar tu calidad de vida. Y no olvidemos nuestra
-          fuerte conexión con la comunidad y el compromiso con la
-          sostenibilidad, valores que hacen que nuestros productos sean aún más
-          especiales. Cada artículo que sale de nuestra farmacia es una
-          expresión de nuestro amor por la salud y nuestra pasión por convertir
-          los momentos cotidianos en experiencias de cuidado y belleza.{' '}
+        En el corazón de nuestro compromiso con la salud y el bienestar se encuentra nuestra farmacia, 
+        un lugar donde la tradición se fusiona con la innovación. Aquí, cada producto es cuidadosamente 
+        seleccionado para ofrecer la máxima calidad y eficacia, transformando el cuidado personal en una 
+        experiencia única. Nuestra farmacia es un crisol de conocimiento y dedicación, hacia cada uno de 
+        nuestros clientes aportado por nuestro Farmacéutico Luis Alvarez, quien les brinda la mejor atención, 
+        y a quien pueden consultar sobre sus dudas o problemas de salud garantizando su bienestar.
+         Además, somos amantes de la belleza y la cosmética, siempre buscando nuevas formas de realzar 
+        tu apariencia y mejorar tu calidad de vida, con ayuda de nuestra cosmetóloga.{' '}
         </p>
       </div>
       <div className="w-full pt-14 lg:p-0 bg-center sm:pt-14 md:w-1/2 lg:w-1/2 lg:mx-auto md:mx-auto flex items-center justify-center" data-aos="fade-up">

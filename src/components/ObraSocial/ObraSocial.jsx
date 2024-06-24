@@ -2,28 +2,42 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import {
+    boreal,
+    galeno,
+    mora,
+    osde,
+    pami,
+    prensa,
+    recetario,
+    sancor,
+    subsidio,
+    swiss,
+} from './obrasocial';
 
 const ObrasSociales = () => {
     const obrasSociales = [
-        'Subsidio de salud',
-        'Osde',
-        'Pami',
-        'Swiss Medical',
-        'Sancor Salud',
-        'Prensa',
-        'Boreal',
-        'Mora',
-        'Galeno',
-        'Recetario solidario',
+        boreal,
+        galeno,
+        mora,
+        osde,
+        pami,
+        prensa,
+        recetario,
+        sancor,
+        subsidio,
+        swiss,
     ];
 
     const sliderSettings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
         responsive: [
             {
                 breakpoint: 1024,
@@ -54,11 +68,13 @@ const ObrasSociales = () => {
                 </h2>
                 <Slider {...sliderSettings} className="slick-slider">
                     {obrasSociales.map((obra, index) => (
-                        <div key={index} className="p-4 ">
-                            <div className="bg-keppel rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-                                <p className="text-lg text-center text-gray-800">
-                                    {obra}
-                                </p>
+                        <div key={index} className="p-4">
+                            <div className="bg-white rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+                                <img
+                                    src={obra}
+                                    alt={`Obra Social ${index + 1}`}
+                                    className="w-full h-32 object-contain"
+                                />
                             </div>
                         </div>
                     ))}
