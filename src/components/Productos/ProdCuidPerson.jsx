@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSerum.jpg'
 import { 
   gelLimpieza, niveaHidra, shampoohead, desodorante, serumAmarillo, serumRojo, serumVerde, 
-  garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps, garnierHidratanteSerum,
+  garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,
   neutrogenaAcido, neutrogenaExfolianteAcne, neutrogenaHydro, lorealAcidoGel, lorealAcidoOjos,
   lorealLimpieza, lorealSerumOjos, lorealSerumRelleno, dermaglosAzul, dermaglosMorado, 
   dermaglosRojo, dermaglosMarron

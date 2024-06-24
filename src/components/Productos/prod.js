@@ -29,19 +29,22 @@ import desodorante from './Imagenes/desodorante.png';
 import serumAmarillo from './ImagenesCuidPersonal/SniveaAmarillo.png';
 import serumRojo from './ImagenesCuidPersonal/SniveaRojo.png';
 import serumVerde from './ImagenesCuidPersonal/SniveaVerde.png';
+
 import garnierAguaMicelarAcido from './ImagenesCuidPersonal/GarnierMicelarAcido.jpg';
 import garnierMicelarVitamina from './ImagenesCuidPersonal/garniermicelarvitamina.png';
 import garnierHidratanteFps from './ImagenesCuidPersonal/GarnierHidratanteFPS.jpg';
-import garnierHidratanteSerum from './ImagenesCuidPersonal/garnierHidratanteSerum.jpg';
+
 import neutrogenaAcido from './ImagenesCuidPersonal/neurogenaAcidoGlicolico.png';
 import neutrogenaExfoliante from './ImagenesCuidPersonal/neutrogenaExfoliante.png';
 import neutrogenaExfolianteAcne from './ImagenesCuidPersonal/neutrogenaExfolianteAcne.png';
 import neutrogenaHydro from './ImagenesCuidPersonal/NeutrogenaHydroBoost.jpg';
+
 import lorealAcidoGel from './ImagenesCuidPersonal/lorealAcidoGel.png';
 import lorealAcidoOjos from './ImagenesCuidPersonal/lorealAcidoOjos.png';
 import lorealLimpieza from './ImagenesCuidPersonal/lorealGelLimpieza.png';
 import lorealSerumOjos from './ImagenesCuidPersonal/lorealSerumOjos.jpg';
 import lorealSerumRelleno from './ImagenesCuidPersonal/lorealSerumRelleno.png';
+
 import dermaglosAzul from './ImagenesCuidPersonal/dermaglosUltraAzul.jpg';
 import dermaglosMorado from './ImagenesCuidPersonal/dermaglosUltraMorado.jpg';
 import dermaglosRojo from './ImagenesCuidPersonal/dermaglosUltraRojo.jpeg';
@@ -80,7 +83,6 @@ export {
     garnierAguaMicelarAcido,
     garnierMicelarVitamina,
     garnierHidratanteFps,
-    garnierHidratanteSerum,
     neutrogenaAcido,
     neutrogenaExfoliante,
     neutrogenaExfolianteAcne,
