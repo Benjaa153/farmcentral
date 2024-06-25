@@ -139,10 +139,11 @@ function ProdCuidPerson() {
                 product.component
               ) : (
                 <>
+                <h3 className="text-2xl text-darkcyan uppercase font-lora mb-4 text-center">{product.title}</h3>
                   <div className="mb-5 h-48 overflow-hidden flex items-center justify-center">
                     <img src={product.img} alt={product.title} className="w-full h-full object-contain"/>
                   </div>
-                  <h3 className="text-2xl text-darkcyan uppercase font-lora mb-4 text-center">{product.title}</h3>
+                  
                   <p className="text-lg text-black mb-4 flex-grow">{product.description}</p>
                 </>
               )}

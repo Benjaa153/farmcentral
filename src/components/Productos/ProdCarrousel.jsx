@@ -7,7 +7,7 @@ const arrowStyle = {
   backgroundColor: 'transparent',
   border: 'none',
   color: 'black',
-  fontSize: '2rem',
+  fontSize: '1.2rem',
   position: 'absolute',
   top: '50%',
   transform: 'translateY(-50%)',

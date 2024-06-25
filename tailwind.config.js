@@ -25,6 +25,8 @@ export default {
         keppel: "#3BA99C",
         darkcyan: "#21897E",
         flame: "#E4572E",
+        persianorange: "#DE9151",
+        azulonda: "#2A7392"
       },
       boxShadow: {
         before: "-10px 10px 0 #FFF",
