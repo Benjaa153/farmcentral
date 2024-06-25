@@ -28,7 +28,9 @@ const Navbar = () => {
   }, []);
 
   const content = (
-    <div className={`bg-white lg:hidden block absolute top-20 w-full left-0 right-0 transition`}>
+    <div
+      className={`bg-white lg:hidden block absolute top-20 w-full left-0 right-0 transition`}
+    >
       <ul className="text-center text-x1 p-20">
         <li className="my-4 py-4 border-b border-mayablue hover:bg-tropicalindigo hover:text-white hover:rounded">
           <Link spy={true} smooth={true} to="hero" onClick={handleClick}>
@@ -59,7 +61,12 @@ const Navbar = () => {
         </li>
         {/* Enlace para Instagram */}
         <li className="my-4 py-4 border-b border-mayablue hover:bg-flame hover:text-white hover:rounded">
-          <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer" onClick={handleClick}>
+          <a
+            href="https://www.instagram.com/farmaciacentral7/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleClick}
+          >
             <FaInstagram className="inline-block mr-2" />
             Instagram
           </a>
@@ -69,7 +76,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className={`bg-${scrolling ? "white" : "transparent"}`}>
+    <nav className={`bg-${scrolling ? 'white' : 'transparent'}`}>
       <div className="h-10vh flex justify-between z=50 text-tropicalindigo lg:py-5 lg:px-20 py-4">
         <div className="flex items-center flex-1">
           {/* Contenido del logo o nombre */}
@@ -106,7 +113,11 @@ const Navbar = () => {
               </li>
               {/* Enlace para Instagram */}
               <li className="hover:text-flame transition border-b-2 hover:border-flame cursor-pointer">
-                <a href="https://www.instagram.com/tu_usuario/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/farmaciacentral7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram className="inline-block mr-2" />
                   Instagram
                 </a>
@@ -115,8 +126,15 @@ const Navbar = () => {
           </div>
         </div>
         <div>{click && content}</div>
-        <button className="block sm:hidden transition m-4 p-2 rounded-lg" onClick={handleClick}>
-          {click ? <FaTimes className="text-2xl text-black" /> : <CiMenuFries className="text-2xl text-black" />}
+        <button
+          className="block sm:hidden transition m-4 p-2 rounded-lg"
+          onClick={handleClick}
+        >
+          {click ? (
+            <FaTimes className="text-2xl text-black" />
+          ) : (
+            <CiMenuFries className="text-2xl text-black" />
+          )}
         </button>
       </div>
     </nav>
