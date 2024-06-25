@@ -4,7 +4,29 @@ import {
   garnierAguaMicelarAcido, garnierMicelarVitamina, garnierHidratanteFps,
   neutrogenaAcido, neutrogenaExfolianteAcne, neutrogenaHydro, lorealAcidoGel, lorealAcidoOjos, 
   lorealSerumOjos, lorealSerumRelleno, dermaglosAzul, dermaglosMorado, 
-  dermaglosRojo, dermaglosMarron, garnierHidratanteSerum, lorealLimpieza 
+  dermaglosRojo, dermaglosMarron, garnierHidratanteSerum, lorealLimpieza,dermaglosLeche,dermaglosSerum,
+  dermaglosSerumC,
+  dermaglosSerumA,
+  dermaglosFacialHidra,
+  dermaglosFacialAgua,
+  dermaglosFacialNoche,
+  dermaglosFacialDia,
+  dermaglosFacialDesmaquilla,
+  dermaglosFacialNutre,
+  dermaglosFacialNormal,
+  dermaglosFacialGrasa,
+  dermaglosFacialFPS,
+  dermaglosHombrehidra,
+  dermaglosHombreLimp,
+  dermaglosCorpHidra,
+  dermaglosCorpSeca,
+  dermaglosCorpSpray,
+  dermaglosCorplHidraProf,
+  dermaglosManosUltrahidra,
+  dermaglosManosHidraEsencial,
+  dermaglosManosHidraRege,
+  elviveGloss,
+
 } from './prod.js';
 import ProductCarousel from './ProdCarrousel.jsx';
 
@@ -48,6 +70,44 @@ function ProdCuidPerson() {
     { img: dermaglosMarron, title: 'Marrón +60 años', description: 'Crema facial antiarrugas para mujeres de más de 60 años, fortalece y rejuvenece la piel.' },
   ];
 
+  const dermaglosSerumCont = [
+    { img: dermaglosSerum, title: 'Niacinamida', description: 'Serum con niacinamida que ayuda a reducir la inflamación y el enrojecimiento, mejora la textura de la piel y minimiza los poros.' },
+    { img: dermaglosSerumC, title: 'Vitamina C', description: 'Serum con vitamina C que aporta luminosidad, unifica el tono de la piel y combate los signos del envejecimiento.' },
+    { img: dermaglosSerumA, title: 'Ácido Hialurónico', description: 'Serum con ácido hialurónico que hidrata profundamente, mejora la elasticidad y rellena las líneas finas.' },
+  ];
+
+  const dermaglosFacial = [
+    { img: dermaglosFacialHidra, title: 'Tónico Hidratante Descongestivo', description: 'Tónico que hidrata y descongestiona la piel, proporcionando una sensación de frescura.' },
+    { img: dermaglosLeche, title: 'Leche de Limpieza Activa', description: 'Elimina en profundidad el maquillaje y las impurezas diarias permitiendo a la piel respirar libremente sin dejar sensación de grasitud.' },
+    { img: dermaglosFacialAgua, title: 'Agua Micelar 6 en 1', description: 'Limpia, desmaquilla, tonifica, refresca, suaviza y equilibra la piel.' },
+    { img: dermaglosFacialNoche, title: 'Crema Nutritiva de Noche', description: 'Crema que nutre y regenera la piel durante la noche, dejándola suave y revitalizada.' },
+    { img: dermaglosFacialDia, title: 'Emulsión Hidratante de Día', description: 'Hidratante ligera que proporciona una hidratación duradera y protege la piel durante el día.' },
+    { img: dermaglosFacialDesmaquilla, title: 'Desmaquillante Bifaz para Ojos y Labios', description: 'Remueve el maquillaje a prueba de agua, sin residuo graso, sin alcohol. Todo tipo de piel.' },
+    { img: dermaglosFacialNutre, title: 'Crema Nutritiva de Noche para Pieles Secas y Muy Secas', description: 'Crema que nutre intensamente las pieles secas y muy secas durante la noche.' },
+    { img: dermaglosFacialNormal, title: 'Gel de Limpieza Pieles Normales', description: 'Limpia en profundidad, elimina impurezas, mantiene la piel suave e hidratada.' },
+    { img: dermaglosFacialGrasa, title: 'Gel de Limpieza Pieles Grasas', description: 'Gel que elimina el exceso de grasa y las impurezas, dejando la piel limpia y fresca.' },
+    { img: dermaglosFacialFPS, title: 'Crema Protectora FPS 30', description: 'Crema hidratante matificante, hidrata sin efecto graso, previene la aparición de manchas, protege de las agresiones ambientales. Pieles mixtas a grasas.' },
+  ];
+
+  const dermaglosHombres = [
+    { img: dermaglosHombrehidra, title: 'Crema Gel Hidratante + After Shave', description: 'Hidrata la piel y calma la irritación causada por el afeitado, dejando una sensación de frescura.' },
+    { img: dermaglosHombreLimp, title: 'Gel de Limpieza', description: 'Gel que limpia en profundidad la piel masculina, eliminando impurezas y el exceso de grasa.' },
+  ];
+
+  const dermaglosCorp = [
+    { img: dermaglosCorpHidra, title: 'Leche Corporal Hidratación Intensa para Piel Seca', description: 'Leche corporal que proporciona una hidratación intensa para pieles secas.' },
+    { img: dermaglosCorpSeca, title: 'Leche Corporal Hidratación para Piel Extra Seca y Sensible', description: 'Leche corporal que hidrata y calma las pieles extra secas y sensibles.' },
+    { img: dermaglosCorpSpray, title: 'Spray Corporal Hidratante', description: 'Spray hidratante que proporciona una hidratación inmediata y duradera.' },
+    { img: dermaglosCorplHidraProf, title: 'Leche Corporal Hidratación Profunda para Piel Muy Seca', description: 'Leche corporal que hidrata profundamente las pieles muy secas.' },
+  ];
+
+  const dermaglosManos = [
+    { img: dermaglosManosUltrahidra, title: 'Ultrahidratante para Manos', description: 'Crema ultrahidratante que nutre y protege las manos secas.' },
+    { img: dermaglosManosHidraEsencial, title: 'Hidratación Esencial para Manos', description: 'Crema hidratante que suaviza y protege las manos.' },
+    { img: dermaglosManosHidraRege, title: 'Hidratación Regeneradora para Manos', description: 'Crema regeneradora que hidrata y rejuvenece las manos.' },
+  ];
+
+
   const products = [
     { id: 1, img: niveaHidra, title: 'Nivea Hidratación Express', description: 'Proporciona una hidratación intensa y duradera, dejando la piel del cuerpo suave y tersa al instante. Su fórmula ligera y de rápida absorción es perfecta para el uso diario.' },
     { id: 2, img: shampoohead, title: 'Head & Shoulders Limpieza Renovadora', description: 'Diseñado para eliminar la caspa y proporcionar una limpieza profunda al cuero cabelludo. Su fórmula refrescante deja el cabello limpio y con una sensación de frescura duradera.' },
@@ -59,6 +119,12 @@ function ProdCuidPerson() {
     { id: 8, component: <ProductCarousel title="Neutrogena Exfoliantes" products={neutrogena} /> },
     { id: 9, component: <ProductCarousel title="L'Oréal" products={loreal} /> },
     { id: 10, component: <ProductCarousel title="Dermaglós Ultra" products={dermaglosUltra} /> },
+    { id: 11, component: <ProductCarousel title="Dermaglós Serum" products={dermaglosSerumCont} /> },
+    { id: 12, component: <ProductCarousel title="Dermaglós Facial" products={dermaglosFacial} /> },
+    { id: 13, component: <ProductCarousel title="Dermaglós Hombres" products={dermaglosHombres} /> },
+    { id: 14, component: <ProductCarousel title="Dermaglós Corporal" products={dermaglosCorp} /> },
+    { id: 15, component: <ProductCarousel title="Dermaglós Manos" products={dermaglosManos} /> },
+    { id: 16, img: elviveGloss, title: "Elvive Glycolic Gloss", description: 'Combina shampoo, acondicionador, crema para peinar y tratamiento intensivo para hidratar profundamente el cabello, dejándolo suave, brillante y libre de frizz.'},
   ];
 
   const displayedProducts = showAll ? products : products.slice(0, 3);

@@ -44,13 +44,55 @@ import lorealAcidoOjos from './Imagenes/lorealAcidoOjos.png';
 import lorealSerumOjos from './Imagenes/lorealSerumOjos.jpg';
 import lorealSerumRelleno from './Imagenes/lorealSerumrelleno.png';
 
+import elviveGloss from './Imagenes/elviveGloss.jpg'
+
+// Dermaglos facial hidratantes
 import dermaglosAzul from './Imagenes/dermaglosUltraAzul.jpg';
 import dermaglosMorado from './Imagenes/dermaglosUltraMorado.jpg';
 import dermaglosRojo from './Imagenes/dermaglosUltraRojo.jpeg';
 import dermaglosMarron from './Imagenes/dermaglosUltraMarron.jpg';
 
+
+
+{/* dermaglos facial */}
+import dermaglosLeche from './Imagenes/dermaglosleche.jpg';
+import dermaglosFacialHidra from './Imagenes/dermaglosFacialhidra.jpg'
+import dermaglosFacialAgua from './Imagenes/dermaglosFacialagua.jpg'
+import dermaglosFacialNoche from './Imagenes/dermaglosFacialnoche.jpg'
+import dermaglosFacialDia from './Imagenes/dermaglosFacialdia.jpg'
+import dermaglosFacialDesmaquilla from './Imagenes/dermaglosFacialdesmaquilla.png'
+import dermaglosFacialNutre from './Imagenes/dermaglosFacialNutre.png'
+import dermaglosFacialNormal from './Imagenes/dermaglosFacialNormal.png'
+import dermaglosFacialGrasa from './Imagenes/dermaglosFacialGrasa.png'
+import dermaglosFacialFPS from './Imagenes/dermaglosFacialFPS.png'
+
+{/* Dermaglos hombres */}
+import dermaglosHombrehidra from './Imagenes/dermaglosHombreHidra.jpg'
+import dermaglosHombreLimp from './Imagenes/dermaglosHombreLimpieza.jpg'
+
+
+
+{/*Dermaglos serum */}
+import dermaglosSerum from './Imagenes/dermaglosSerum.jpg'
+import dermaglosSerumC from './Imagenes/dermaglosSerumC.jpg'
+import dermaglosSerumA from './Imagenes/dermaglosSerumA.png'
+
+{/* Dermaglos corporal */}
+import dermaglosCorpHidra from './Imagenes/dermaglosCorporalHidra.png'
+import dermaglosCorpSeca from './Imagenes/dermagloscorporalpielseca.png'
+import dermaglosCorpSpray from './Imagenes/dermaglosCorporalSpray.jpg'
+import dermaglosCorplHidraProf from './Imagenes/dermaglosCorporalHidraProfunda.jpg'
+
+{/* Dermaglos manos */}
+import dermaglosManosUltrahidra from './Imagenes/dermaglosManosUltrahidra.png'
+import dermaglosManosHidraEsencial from './Imagenes/dermaglosManosHidraEsencial.jpg'
+import dermaglosManosHidraRege from './Imagenes/dermaglosManosHidraRege.jpg'
+
 import garnierHidratanteSerum from './Imagenes/GarnierHidratanteSerum.jpg'
 import lorealLimpieza from './Imagenes/LorealGelLimpieza.png'
+
+
+
 export {
     // Perfumeria
     boosNight,
@@ -78,24 +120,58 @@ export {
     niveaHidra,
     shampoohead,
     desodorante,
+    // Nivea Serum
     serumAmarillo,
     serumRojo,
     serumVerde,
+    //Garnier
     garnierAguaMicelarAcido,
     garnierMicelarVitamina,
     garnierHidratanteFps,
+    // Neutrogena
     neutrogenaAcido,
     neutrogenaExfolianteAcne,
     neutrogenaHydro,
+    //Loreal
     lorealAcidoGel,
     lorealAcidoOjos,
     lorealSerumOjos,
     lorealSerumRelleno,
+    lorealLimpieza,
+    // Dermaglos ultra
     dermaglosAzul,
     dermaglosMorado,
     dermaglosRojo,
     dermaglosMarron,
     garnierHidratanteSerum,
-    lorealLimpieza,
+    // Dermaglos serum
+    dermaglosLeche,
+    dermaglosSerum,
+    dermaglosSerumC,
+    dermaglosSerumA,
+    // Dermaglos facial
+    dermaglosFacialHidra,
+    dermaglosFacialAgua,
+    dermaglosFacialNoche,
+    dermaglosFacialDia,
+    dermaglosFacialDesmaquilla,
+    dermaglosFacialNutre,
+    dermaglosFacialNormal,
+    dermaglosFacialGrasa,
+    dermaglosFacialFPS,
+    // Dermaglos Hombres
+    dermaglosHombrehidra,
+    dermaglosHombreLimp,
+    // Dermaglos corporal
+    dermaglosCorpHidra,
+    dermaglosCorpSeca,
+    dermaglosCorpSpray,
+    dermaglosCorplHidraProf,
+    // Dermaglos manos y uñas
+    dermaglosManosUltrahidra,
+    dermaglosManosHidraEsencial,
+    dermaglosManosHidraRege,
+    elviveGloss,
+
 
 }
