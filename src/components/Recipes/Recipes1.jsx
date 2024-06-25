@@ -16,7 +16,7 @@ function Recipes1() {
                 </div>
                 {/* container */}
                 <div className='relative w-full h-[150px] bg-mayablue rounded-2xl rounded-tl-none'>
-                    <span className='absolute left-0 w-1/2 h-[80px] -top-[80px] bg-keppel border-t-[10px] border-r-[10px] border-white rounded-tr-[25px]'>
+                    <span className='absolute left-0 w-1/2 h-[80px] -top-[80px] bg-mayablue border-t-[10px] border-r-[10px] border-white rounded-tr-[25px]'>
                         {/* Botón para abrir el modal */}
                         <button onClick={() => setIsModalOpen(true)} className='relative bg-sombra py-2 px-4 m-3 block rounded-lg font- text-center text-white transform hover:scale-105 transition-transform'>
                             VER MAS
